@@ -1,0 +1,58 @@
+.border{
+    border: 3px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #1e1d1d;
+}
+.rounded{
+    border-radius: 8px;
+}
+.m-1{
+    margin: 5px;
+}
+.p1{
+    padding: 10px;
+}
+/* Add the following CSS to your stylesheet or inside a style tag in the HTML document */
+
+/* For Webkit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #111;
+  }
+  
+  /* For Firefox */
+  body {
+    scrollbar-color: #333 #111;
+  }
+  
+  /* For IE and Edge */
+  body {
+    scrollbar-face-color: #333;
+    scrollbar-track-color: #111;
+  }
+  
