@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,63 +55,3 @@
         });
         </script>
 </body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login_Page</title>
-    <link rel="stylesheet" href="login.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-        <div class="wrapper">
-            <form action="">
-                <h1>Login</h1>
-                <div class="input-box">
-                    <input type="text" placeholder="Username" required>
-                    <i class='bx bxs-user bx-burst' ></i>
-                    
-                </div>
-                <div class="input-box">
-                    <input type="password" placeholder="Password" required>
-
-                    <i class='bx bxs-lock-open-alt bx-burst' ></i>
-                </div>
-                <div class="remember-forgot">
-                    <label><input type="checkbox">Remember me</label>
-                    <a href="#">Forget Password?</a>
-
-                </div>
-                <a href="index.html">
-                <button class="Submit" type="submit">Login</button>
-            </a>
-                <div class="register-link">
-                  <p>  Don't have an account? <a href="register.html">Register</a></p>
-                </div>
-            </form>
-        </div>
-
-        <script>
-
-        document.querySelector('form').addEventListener('submit', function(event) {
-            event.preventDefault(); 
-
-            var username = document.querySelector('input[type="text"]').value;
-            var password = document.querySelector('input[type="password"]').value;
-
-            if (username === 'anubhav' && password === '@nubhav123') {
-                
-                alert('Login successful!');
-                
-                window.location.href = './index.html';
-            } else {
-             
-                alert('Invalid username or password. Please try again.');
-            }
-        });
-        </script>
-</body>
->>>>>>> 039a434b571bb671c134ad2193dfe31f61aea1d8
-</html>
