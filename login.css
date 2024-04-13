@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +15,7 @@ body{
     background:#292929;
 }
 
-.wrapper{
+.wrapper {
     width: 420px;
     background:#121212;
     color: white;
@@ -24,20 +23,19 @@ body{
     border-radius: 10px;
 }
 
-.wrapper h1{
+.wrapper h1 {
     font-size: 24px;
     text-align: center;
 }
 
-.wrapper .input-box{
+.wrapper .input-box {
     position: relative;
-   width: 100%;
- height: 50px;
-
- margin: 30px 0;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
 }
 
-.input-box input{
+.input-box input {
     width: 100%;
     height: 100%;
     outline: none;
@@ -50,12 +48,13 @@ body{
     padding: 20px 45px 20px 20px;
 }
 
-.input-box input::placeholder{
+.input-box input::placeholder {
     color:white;
     font-size: 18px;
     padding-left: 15px;
 }
-.input-box i{
+
+.input-box i {
     position: absolute;
     right: 20px;
     top: 35%;
@@ -63,7 +62,7 @@ body{
     font-size: 20px;
 }
 
-.wrapper .Submit{
+.wrapper .Submit {
     width: 100%;
     height: 50px;
     background: #3498db;
@@ -78,28 +77,28 @@ body{
     font-weight: 600;
 }
 
-.wrapper .remember-forgot{
+.wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 20px;
 }
 
-.remember-forgot label input{
+.remember-forgot label input {
     accent-color: white;
     margin-right: 3px;
 }
 
-.remember-forgot a{
+.remember-forgot a {
     color: white;
     text-decoration: none;
 }
 
-.remember-forgot a:hover{
+.remember-forgot a:hover {
     text-decoration: underline;
 }
 
-.wrapper .btn{
+.wrapper .btn {
     width: 100%;
     height: 50px;
     background:#fff ;
@@ -114,18 +113,17 @@ body{
     font-weight: 600;
 }
 
-.wrapper .register-link{
-   font-size: 14.5px;
-   text-align: center;
-   margin: 20px 0 15px;
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
 }
 
-.register-link a{
+.register-link a {
     color: white;
     text-decoration: none;
 }
 
-.register-link a:hover{
+.register-link a:hover {
     text-decoration: underline;
 }
-
