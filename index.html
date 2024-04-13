@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./utility.css" />
+    <link rel="stylesheet" href="./loader.css">
     <title>Spotify - Web Player: Music for everyone</title>
   </head>
   <body>
+    <div id="loader">
+      <h2 data-text="Ganna..." class="htwo">Ganna...</h2>
+      <!-- <p data-text="Please wait..." class="p1">Please wait...</p> -->
+    </div>
     <div class="container flex bg-black">
       <div class="left">
         <div class="close">
@@ -22,6 +27,7 @@
             <li><img class="invert" src="search.svg" alt="search" />Search</li>
           </ul>
         </div>
+      
         <div class="library rounded bg-grey m-1 p-1">
           <div class="heading">
             <img class="invert" src="library.svg" alt="libraryimage" />
@@ -227,5 +233,6 @@
       </div>
     </div>
     <script src="script.js"></script>
+   
   </body>
 </html>
