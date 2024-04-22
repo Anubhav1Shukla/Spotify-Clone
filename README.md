@@ -31,7 +31,6 @@ The Spotify frontend clone with song folder management will include the followin
 
 2. Song Management:
    - Upload new songs.
-   - Delete existing songs.
    - View a list of all songs.
 
 3. Folder Management:
