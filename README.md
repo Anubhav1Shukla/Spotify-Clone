@@ -52,6 +52,7 @@ Contributions to the Spotify frontend clone with song folder management project 
 4. Commit your changes: `git commit -m "Add your commit message"`
 5. Push to the branch: `git push origin feature/your-feature-name`
 6. Open a pull request on the original repository.
+7. Try this frontend......
 
 #### License
 The Spotify frontend clone with song folder management project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
