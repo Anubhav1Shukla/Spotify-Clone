@@ -2,7 +2,7 @@
 
 
 
-#### Spotify Frontend Clone with Song Folder Management - README
+#### Spotify like website  with Song Folder Management - README
 
 Welcome to the README file for the Spotify frontend clone project with song folder management. In this project, we aim to create a clone of the Spotify frontend using HTML, CSS, and JavaScript. The project will also include features for adding songs to folders and a login/signup page.
 
