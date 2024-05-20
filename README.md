@@ -59,6 +59,6 @@ The Spotify frontend clone with song folder management project is licensed under
 
 We hope you enjoy working on this project and find it useful for learning and practicing HTML, CSS, and JavaScript. If you have any questions or encounter any issues, please don't hesitate to reach out for assistance. Happy coding!
 
-Welcome....
+Welcome.....
 
 */
