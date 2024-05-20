@@ -12,7 +12,7 @@ The Spotify frontend clone with song folder management is a simple web applicati
 #### Installation
 To set up the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/spotify-clone.git`.
+1. Clone the repository: `git clone https://github.com/your-username/spotify-clone.git`
 2. Change into the project directory: `cd spotify-clone`.
 3. Open the project in your preferred code editor.
 4. Open the `index.html` file in your web browser to view the application.
