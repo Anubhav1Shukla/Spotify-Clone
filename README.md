@@ -25,7 +25,7 @@ After logging in, users will be able to upload songs, create folders, add songs 
 #### Features
 The Spotify frontend clone with song folder management will include the following features:
 
-1. User Authentication:
+1. User Authentication:-
    - Sign up with a new account.
    - Log in with existing credentials.
 
